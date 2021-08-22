@@ -47,6 +47,15 @@ body {
 		0 0 180px rgba(38,104,127,1);
 }
 
+.es button{
+	background: rgb(196, 21, 212);
+}
+
+.es button:hover{
+	background: rgb(4, 15, 1);
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -230,7 +239,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(233, 12, 253, 0.555);
 				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
