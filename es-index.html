@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,8 +21,8 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="es-index.html">Inicio</a></h1>
-                        <a href="index.html" class="es"><button>ES</button></a>
 						<nav>
+							<a href="index.html" class="en"><button>EN</button></a>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
@@ -32,7 +33,10 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="es-index.html">Inicio</a></li>
-								<li><a href="generic.html">Generic</a></li>
+								<li><a class="scrollTo" href="#SobreMi">Sobre Mi</a></li>
+								<li><a class="scrollTo" href="#Habilidades">Habilidades</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="elements.html">Elements</a></li>
 								<li><a href="elements.html">Elements</a></li>
 							</ul>
 							<a href="#" ></a><button class="close">Cerrar</button></a>
@@ -43,8 +47,11 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"></div>
-							<h2>Hola, soy Alejandro Jameson</h2>
-							<p class="fullstack">Full Stack | Front End </p>
+							<h2><font color="#D227ED"><</font><font color="white"> Alejandro Jameson </font><font color="#D227ED">/</font><font color="#D227ED">></font><font color="#FD02F"> </font><font color="#F61024"> </font></h2>
+							<div class="containerTitle">
+								<p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+								<script src="Developer.js"></script>
+							</div>
 						</div>
 					</section>
 
@@ -53,12 +60,162 @@
 
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+								<div class="inner" id="SobreMi">
+									<div class="image"></a><img src="images/pic01.jpg" alt="" /></div>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Sobre Mi</h2>
+										<p>Full stack Developer especializado en Javascript,
+											ReactJS y NodeJS, con facilidad de adaptacion en
+											cualquier grupo o ambito. Vivo en constante
+											aprendizaje sobre nuevas tecnologias, amante de resolver acertijos y capaz de resolver cualquier problema.
+											Siempre dispuesto a dar lo mejor de mi y alcanzar cualquier tipo de
+											objetivo</p>
+										<a href="https://www.dropbox.com/s/j3jteyjxh6im0pa/CV_Alejandro_Jameson.pdf?dl=0" target="_blank" class="btn"><span>Mi CV</span></a>
+									</div>
+								</div>
+								<div class="inner">
+									<!-- <div class="image"></div> -->
+									<div class="content" id="Habilidades">
+										<h2 class="major" align="center">Habilidades</h2>
+										<div class="LanCont"> 
+											<div class="carousel">
+												<div class="carousel__item">
+													<div class="skillstitcont">
+														<h4 class="skilltit">Lenguajes</h4>
+													</div>
+													<div class="skillscont">
+														<h4 class="liskill">JavaScript</h4>
+														<h4 class="liskill">TypeScript</h4>
+														<h4 class="liskill">C++</h4>
+													</div>
+												</div>
+												<div class="carousel__item">
+													<div class="skillstitcont">
+														<h4 class="skilltit">Front End</h4>
+													</div>
+													<div class="skillscont">
+														<h4 class="liskill">React, hooks</h4>
+														<h4 class="liskill">React Native</h4>
+														<h4 class="liskill">Redux</h4>
+														<h4 class="liskill">VueJS</h4>
+														<h4 class="liskill">Styled Component</h4>
+														<h4 class="liskill">Chakra UI</h4>
+														<h4 class="liskill">Boostrap</h4>
+													</div>
+												</div>
+												<div class="carousel__item">
+													<div class="skillstitcont">
+														<h4 class="skilltit">Back End</h4>
+													</div>
+													<div class="skillscont">
+														<h4 class="liskill">Node</h4>
+														<h4 class="liskill">Express</h4>
+														<h4 class="liskill">Sequelize</h4>
+													</div>
+												</div>
+												<div class="carousel__item">
+													<div class="skillstitcont">
+														<h4 class="skilltit">Data Base</h4>
+													</div>
+													<div class="skillscont">
+														<h4 class="liskill">SQL</h4>
+														<h4 class="liskill">PostgreSQL</h4>
+													</div>
+												</div>
+												<div class="carousel__item">
+													<div class="skillstitcont">
+														<h4 class="skilltit">Herramientas</h4>
+													</div>
+													<div class="skillscont">
+														<h4 class="liskill">Git</h4>
+														<h4 class="liskill">GitHub</h4>
+														<h4 class="liskill">Docker</h4>
+														<h4 class="liskill">Visual Studio</h4>
+														<h4 class="liskill">Postman</h4>
+														<h4 class="liskill">Dev c++</h4>
+													</div>
+												</div>
+											  </div>
+											<!-- <div id="skills" class="container-fluid amg-skills">
+												<div class="row amg-badge-collection">
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="90" height="90" alt="HTML5">
+													<h3>JavaScript</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="90" height="90" alt="CSS3">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JS_Badge.svg" alt="JavaScript">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												  <div class="col-xs-3 amg-badge">
+													<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg" alt="JQuery">
+													<h3>EXPERT</h3>
+												  </div>
+												</div>
+											  </div> -->
+											<!-- <div class="container">
+												<h1>Skill Set</h1>
+												<div class="bar expert" data-skill="Javascript"></div>
+												<div class="bar expert" data-skill="React"></div>
+												<div class="bar expert" data-skill="Redux"></div>
+												<div class="bar front advanced" data-skill="CSS3"></div>
+												<div class="bar front expert" data-skill="HTML5"></div>
+											
+											  </div> -->
+        									<!-- <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="70" height="70" style="margin: 1em;"/> 
+
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="70" height="70" style="margin: 1em;"/> 
+
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="70" height="70" style="margin: 1em;"/> 
+												
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="70" height="70" style="margin: 1em;"/> 
+   
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="70" height="70" style="margin: 1em;""/> 
+    
+        									<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="70" height="70"style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="70" height="70" style="margin: 1em;"/> 
+    
+        									<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70" style="margin: 1em;"/> --> 
+ 
+										</div>
 									</div>
 								</div>
 							</section>
@@ -67,29 +224,42 @@
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h2 class="major">Portafolio</h2>
+									<p>Algunos de los proyectos en los que trabaje</p>
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" height="270em"/></a>
+											<h3 class="major">Wipit Board</h3>
+											<p> Realizamos una plataforma web para la empresa Wipit donde
+												programadores de distintas partes del mundo puedan colaborar
+												entre si resolviendo tareas en conjunto.
+												</p>
+											<a href="#" class="special">Leer mas</a>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" height="270em"/></a>
+											<h3 class="major">Arcade App</h3>
+											<p>Proyecto desarrollado en el marco del bootcamp Henry, es una Web App para
+												visualizar informacion sobre Videojuegos, la App permite Filtrar,
+												Ordenar, Buscar, y Crear informacion, tambien contiene un
+												paginado y consume datos de una API externa.
+												</p>
+											<a href="#" class="special">Leer mas</a>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3 class="major">Movieflix</h3>
+											<p>Pagina Web desarrollada en el bootcamp Henry que nos brinda informacion sobre peliculas, utilizando una api externa y permitiendonos agregar peliculas a favoritos y eliminarlas</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<h3 class="major">Ante fermentum</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="images/pic07(2).jpg" alt="" /></a>
 											<h3 class="major">Fusce consequat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
@@ -139,9 +309,7 @@
 								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
 								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
+							
 						</div>
 					</section>
 
@@ -154,6 +322,96 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				$(".scrollTo").click(function () {
+					var getElement = $(this).attr("href");
+					if($(getElement).length) {
+						var getOffset = $(getElement).offset().top;
+						var targetDistance = 50;
+						$("html,body").animate({
+							scrollTop: getOffset - targetDistance
+						}, 500);
+					}
+				})
+			</script>
+			<script type="text/javascript">
+				$(function(){
+
+// Rotate Skill Badges
+var $badges = $(".amg-badge img");
+
+function rotateBadge(passedBadge, speed){
+  var rotateSpeed = speed / 180,
+      current = 0;
+
+  function badgeRotation(passedBadge){
+    current = (current == 90) ? 271 : current + 1;
+
+    passedBadge.css({
+      "-webkit-transform":"rotate3d(0,1,0," + current + "deg)",
+      "-moz-transform":"rotate3d(0,1,0," + current + "deg)",
+      "transform":"rotate3d(0,1,0," + current + "deg)"
+    });
+
+    if (current == 360) {
+      clearInterval(rotateInterval);
+      passedBadge.removeAttr('style').removeClass('spinning');
+    }
+  }
+
+  var rotateInterval = setInterval(function(){badgeRotation(passedBadge)}, rotateSpeed);
+}
+
+$badges.mouseenter(function(){
+  if ($(this).hasClass('spinning')) {
+    return false;
+  } else {
+    rotateBadge($(this), 500);
+    $(this).addClass('spinning');
+  }
+});
+
+});
+			</script>
+			<script type="text/javascript">
+				document.querySelectorAll(".carousel").forEach((carousel) => {
+  const items = carousel.querySelectorAll(".carousel__item");
+  const buttonsHtml = Array.from(items, () => {
+    return `<span class="carousel__button"></span>`;
+  });
+
+  carousel.insertAdjacentHTML(
+    "beforeend",
+    `
+		<div class="carousel__nav">
+			${buttonsHtml.join("")}
+		</div>
+	`
+  );
+
+  const buttons = carousel.querySelectorAll(".carousel__button");
+
+  buttons.forEach((button, i) => {
+    button.addEventListener("click", () => {
+      // un-select all the items
+      items.forEach((item) =>
+        item.classList.remove("carousel__item--selected")
+      );
+      buttons.forEach((button) =>
+        button.classList.remove("carousel__button--selected")
+      );
+
+      items[i].classList.add("carousel__item--selected");
+      button.classList.add("carousel__button--selected");
+    });
+  });
+
+  // Select the first item on page load
+  items[0].classList.add("carousel__item--selected");
+  buttons[0].classList.add("carousel__button--selected");
+});
+
+			</script>
 
 	</body>
 </html>
