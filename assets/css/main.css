@@ -180,9 +180,12 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+/* BACKGROUND */
+
 	body {
-		background: linear-gradient(-45deg, #000000, #841c92, #000000, #b48ad6);
-		background-size: 400% 400%;
+		/* background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
+		background-size: 400% 400%; */
+		background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");  /* FONDO 1:(https://fondosmil.com/fondo/29364.jpg) FONDO 2:https://www.wallpapertip.com/wmimgs/20-200549_minimalist-desktop-wallpaper-hd.jpg FONDO 3: https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg*/
 		animation: gradient 15s ease infinite;
 		height: 100vh;
 		background-attachment: fixed,
@@ -190,6 +193,47 @@ input, select, textarea {
 		background-position: center,
  center;
 	}
+
+	@media screen and (max-width: 480px) {
+		body {
+			/* background-size: 200% 120%; */ 
+			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
+			animation: gradient 120s ease infinite;
+			height: 100vh;
+			background-attachment: fixed,
+ 	fixed;
+			background-position: center,
+ 	center;
+		}
+
+	}
+
+	@media screen and (max-width: 639px) {
+		body {
+			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
+			animation: gradient 120s ease infinite;
+			height: 100vh;
+			background-attachment: fixed,
+ 	fixed;
+			background-position: center,
+ 	center;
+		}
+
+	}
+
+	@media screen and (max-width: 1000px) {
+		body {
+			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
+			animation: gradient 120s ease infinite;
+			height: 100vh;
+			background-attachment: fixed,
+ 	fixed;
+			background-position: center,
+ 	center;
+		}
+
+	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -364,7 +408,215 @@ input, select, textarea {
 		  font-size: 40%;
 		  text-decoration: none;
 	  }
+
+/* Animacion BACKGROUND */
 	  
+	  .bg {
+		animation: slide 3s ease-in-out infinite alternate;
+		background-image: linear-gradient(-60deg, #00000088 50%, #4b0286c9 30%, #000000);
+		bottom: 0;
+		left: -50%;
+		opacity: 0.65;
+		position: fixed;
+		right: -50%;
+		top: 0;
+		z-index: -1;
+	}
+	
+	.bg2 {
+		animation-direction: alternate-reverse;
+		animation-duration: 4s;
+	}
+	
+	.bg3 {
+		animation-duration: 5s;
+	}
+	
+	@keyframes slide {
+		0% {
+			transform: translateX(-25%);
+		}
+		100% {
+			transform: translateX(25%);
+		}
+	}
+	
+
+/* CARDSSSSS */
+	.WRAPERSITO{
+		/* display : flex; 
+  		flex-flow: row wrap ; 
+		justify-content: center;  */
+		width: 150%;
+		height: 120%;
+	}  
+
+	@media screen and (max-width: 480px) {
+		.WRAPERSITO {
+			width: 50%;
+		  	height: 100vh;;
+		}
+
+	}
+
+	@media only screen and (max-width : 639px) {
+		.WRAPERSITO {
+		  width: 110%;
+		  height: 95%;
+		}
+	  }
+
+	  @media only screen and (max-width : 1680px) {
+		.WRAPERSITO {
+		  width: 100%;
+		  height: 80%;
+		}
+	  }
+
+	.ulcards{
+		display : flex; 
+  		flex-flow: row wrap ; 
+		justify-content: center;
+		width: 100%;
+		height: 130%;
+	}
+
+	@media only screen and (max-width : 639px) {
+		.ulcards {
+			display : flex; 
+  		flex-flow: row wrap ; 
+		justify-content: center;
+		  width: 100%;
+		  height: 70%;
+		}
+	  }
+	
+	@media only screen and (max-width : 480px) {
+		.ulcards {
+			display : flex; 
+			flex-flow: row wrap ; 
+		  justify-content: center;
+		  width: 115%;
+		  height: auto; 
+		  position: relative;
+		  right: 10%;
+		}
+	  }  
+	
+	.card{
+		border: 1px solid #333333;
+		width: 24.5em;
+		height: 19em;
+		display: flex;
+		flex-direction: row;
+		margin: 2%;
+		background: #fff;
+		border: 2px solid rgb(5, 1, 1);
+		box-shadow: 10px 5px 8px rgba(0,0,0,.5);
+		cursor: pointer;
+		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+		overflow: hidden;
+	}
+
+	@media only screen and (max-width : 639px) {
+		.card {
+		  width: 110%;
+		  height: 100%;
+		}
+	  }
+
+	@media only screen and (max-width : 480px) {
+		.card {
+			border: 1px solid #333333;
+			width: 24.5em;
+			height: 19em;
+			display: flex;
+			flex-direction: row;
+			margin: 2%;
+			background: #fff;
+			border: 2px solid rgb(5, 1, 1);
+			box-shadow: 10px 5px 8px rgba(0,0,0,.5);
+			cursor: pointer;
+			transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+			overflow: hidden;
+		}
+	  }  
+
+	.card img{
+		width: 100%;
+		height: 100%;
+		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+	}
+
+	.descriptions{
+		position: absolute;
+		top:0px;
+		left:0px;
+		color: #ffffff;
+		background-color: rgba(7, 3, 3, 0.794);
+		width:100%;
+		height:100%;
+		/* transition: all .7s ease-in-out; */
+		padding: 20px;
+		box-sizing: border-box;
+		clip-path: circle(0% at 100% 100%);
+	}
+	.card:hover .descriptions{
+		left:0px;
+		transition: all .7s ease-in-out;
+		clip-path: circle(75%);
+	}
+
+	@media only screen and (max-width : 639px) {
+		.descriptions {
+		  font-size: small;
+		}
+	  }
+
+	.card:hover{
+		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+		box-shadow: 0px 2px 3px rgba(0,0,0,.3);
+		transform: scale(.97);
+	}
+	.card:hover img{
+		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+		transform: scale(1.6) rotate(20deg);
+		filter: blur(3px);
+	}
+	.card h1{
+		color: #e815fb;
+		letter-spacing: 1px;
+		margin: 0px;
+	}
+	.card p{
+		line-height: 24px;
+		height: 70%;
+	}
+	.card button{
+		width: fit-content;
+		height: 40px;
+		cursor: pointer;
+		border-style: none;
+		background-color: #e815fb;
+		color:rgb(3, 1, 1);
+		font-size: 15px;
+		outline: none;
+		box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+		transition: all .5s ease-in-out;
+	}
+	.card button:hover{
+		transform: scale(.95) translateX(-5px);
+		transition: all .5s ease-in-out;
+		background-color: #eba3f1a2;
+	}
+
+	@media only screen and (max-width : 480px) {
+		.card button{
+			width: fit-content;
+			height: 2.5em;
+			margin: 0.5em;
+		}
+	  }
 
 /* SKILLS CONTAINER 1 */
 	/* .amg-skills {
@@ -4334,8 +4586,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			/* background-color: #2e3141; */
+			/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 			background-size: auto,
  cover;
 			background-position: center,
