@@ -409,11 +409,43 @@ input, select, textarea {
 		  text-decoration: none;
 	  }
 
+	  div.middle{
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		position:absolute;
+		margin:auto;
+		height:120px;
+		width:100%;
+		text-align:center;
+	  }
+	  .text-type-animation{
+		text-transform:uppercase;
+		font-size:60px;
+		
+	  } 
+	  .txt-rotate{
+		text-transform: uppercase;
+		color: #fff;
+	font-size: 1.2em;
+	text-shadow:
+		0 0 5px rgb(247, 0, 255),
+		0 0 10px rgb(247, 0, 255),
+		0 0 20px rgb(255, 0, 0),
+		0 0 40px rgb(243, 51, 237),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+	  }
+
 /* Animacion BACKGROUND */
 	  
 	  .bg {
 		animation: slide 3s ease-in-out infinite alternate;
-		background-image: linear-gradient(-60deg, #00000088 50%, #4b0286c9 30%, #000000);
+		background-image: linear-gradient(-60deg, #00000062 50%, #4b028693 30%, #000000);
 		bottom: 0;
 		left: -50%;
 		opacity: 0.65;
@@ -505,13 +537,14 @@ input, select, textarea {
 	
 	.card{
 		border: 1px solid #333333;
+		border-radius: 1em;
 		width: 24.5em;
 		height: 19em;
 		display: flex;
 		flex-direction: row;
 		margin: 2%;
 		background: #fff;
-		border: 2px solid rgb(5, 1, 1);
+		/* border: 2px solid rgb(5, 1, 1); */
 		box-shadow: 10px 5px 8px rgba(0,0,0,.5);
 		cursor: pointer;
 		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
@@ -579,9 +612,9 @@ input, select, textarea {
 		transform: scale(.97);
 	}
 	.card:hover img{
-		transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+		/* transition: all .5s cubic-bezier(.8,.5,.2,1.4);
 		transform: scale(1.6) rotate(20deg);
-		filter: blur(3px);
+		filter: blur(3px); */
 	}
 	.card h1{
 		color: #e815fb;

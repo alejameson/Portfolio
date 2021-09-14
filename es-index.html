@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,8 +20,8 @@
 		<div class="bg bg2">
 		<div class="bg bg3">
 		</div>
-	</div>
-	</div>
+		</div>
+		</div>
 			<div id="page-wrapper">	
 				<!-- Header -->
 					<header id="header" class="alt">
@@ -40,9 +40,7 @@
 								<li><a href="es-index.html">Inicio</a></li>
 								<li><a class="scrollTo" href="#SobreMi">Sobre Mi</a></li>
 								<li><a class="scrollTo" href="#Habilidades">Habilidades</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a class="scrollTo"	href="#Portafolio">Portafolio</a></li>
 							</ul>
 							<a href="#" ></a><button class="close">Cerrar</button></a>
 						</div>
@@ -54,8 +52,13 @@
 							<div class="logo"></div>
 							<h2><font color="#D227ED"><</font><font color="white"> Alejandro Jameson </font><font color="#D227ED">/</font><font color="#D227ED">></font><font color="#FD02F"> </font><font color="#F61024"> </font></h2>
 							<div class="containerTitle">
-								<p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-								<script src="Developer.js"></script>
+								<p><span
+          							class="txt-rotate"
+          							data-period="2000"
+          							data-rotate='[ "Full Stack Developer", "Front End Developer", "Programador  🖤"]'>
+								</span></p>
+								<!-- <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+								<script src="Developer.js"></script> -->
 							</div>
 						</div>
 					</section>
@@ -69,7 +72,7 @@
 									<div class="image"></a><img src="images/pic01.jpg" alt="" /></div>
 									<div class="content">
 										<h2 class="major">Sobre Mi</h2>
-										<p>Full stack Developer especializado en Javascript,
+										<p>Full stack Developer con orientacion en Front End especializado en Javascript,
 											ReactJS y NodeJS, con facilidad de adaptacion en
 											cualquier grupo o ambito. Vivo en constante
 											aprendizaje sobre nuevas tecnologias, amante de resolver acertijos y capaz de resolver cualquier problema.
@@ -228,7 +231,7 @@
 
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1" style="background: rgba(0, 0, 0, 0.582);">
-								<div class="inner">
+								<div class="inner" id="Portafolio">
 									<h2 class="major">Portafolio</h2>
 									<p>Algunos de los proyectos en los que trabaje</p>
 									<section class="features">
@@ -268,42 +271,45 @@
 														<i class="fab fa-youtube" style="color: black;"></i>
 														<a href="https://www.linkedin.com/posts/alejandro-jameson_javascript-developer-react-activity-6830659261362782209-czrZ"><span style="color: black;">Play trailer</span></a>
 													</button>
+													<button>
+														<a href="https://github.com/alejameson/PI-Videogames-FT14a"><span style="color: black;">💻 Codigo</span></a>
+													</button>
 												</div>
 											</div>
 											<div class="card">
 												<img src="images/pic06.jpg" alt="">
 												<div class="descriptions">
-													<h1>Equalizer 2</h1>
+													<h1>Movieflix</h1>
 													<p>
-														If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
-													<button>
+														Web App que nos permite buscar informacion sobre cualquier peliculas, agregar peliculas a favoritos y eliminarlas, creado con Javascript, React, Redux, HTML y css, sacando informacion de una Api externa.                </p>
+													<!-- <button>
 														<i class="fab fa-youtube" style="color: black;"></i>
 														<span style="color: black;">Play trailer on YouTube</span>
-													</button>
+													</button> -->
 												</div>
 											</div>
 											<div class="card">
-												<img src="images/pic07(2).jpg" alt="">
+												<img src="images/pic07.jpg" alt="">
 												<div class="descriptions">
-													<h1>Equalizer 2</h1>
+													<h1>Weather App</h1>
 													<p>
-														If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
-													<button>
+														Web App que consiste en mostrar informacion sobre el clima en cualquier lugar del mundo, creado con Javascript, React, Redux, Html, css y jquery, la app consume datos de una api externa.                </p>
+													<!-- <button>
 														<i class="fab fa-youtube" style="color: black;"></i>
 														<span style="color: black;">Play trailer on YouTube</span>
-													</button>
+													</button> -->
 												</div>
 											</div>
 											<div class="card">
-												<img src="images/pic04.jpg" alt="">
+												<img src="images/todolist.jpg" alt="">
 												<div class="descriptions">
-													<h1>Equalizer 2</h1>
+													<h1>ToDo App</h1>
 													<p>
-														If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
-													<button>
+														Web App para agendar las tareas que debemos realizar en el dia, creada con Javascript, Html, Css y jquery.                </p>
+													<!-- <button>
 														<i class="fab fa-youtube" style="color: black;"></i>
 														<span style="color: black;">Play trailer on YouTube</span>
-													</button>
+													</button> -->
 												</div>
 											</div>
 											</ul>
@@ -359,12 +365,12 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<h2 class="major">Contactame</h2>
+							<p>Si estas en un celular te recomiendo contactarme por mis redes sociales, si no puedes enviarme un correo presionando el boton "Enviar Mensaje".</p>
+							<form method="post" action="mailto:alejameson01@gmail.com">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
+										<label for="name">Nombre</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
@@ -372,25 +378,24 @@
 										<input type="email" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
+										<label for="message">Mensaje</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Enviar Mensaje" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
+									Argentina<br />
+									San Juan<br />
 								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-phone">+54 264 483 3561</li>
+								<li class="icon solid fa-envelope">alejameson02@gmail.com</li>
+								<li class="icon brands fa-github"><a href="https://github.com/alejameson">github.com/alejameson</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/alejandro-jameson/">linkedin.com/in/alejandro-jameson</a></li>
+								<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
 							</ul>
 							
 						</div>
@@ -493,6 +498,66 @@ $badges.mouseenter(function(){
   items[0].classList.add("carousel__item--selected");
   buttons[0].classList.add("carousel__button--selected");
 });
+
+			</script>
+			<script>
+				
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 5) || 4000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 170 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 1000;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid white }";
+  document.body.appendChild(css);
+};
 
 			</script>
 
