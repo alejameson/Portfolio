@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Full Stack Developer", "Front End Developer"];
+const textArray = ["Full Stack ", "Front End ", "Developer 🖤"];
 const typingDelay = 80;
 const erasingDelay = 60;
 const newTextDelay = 1050; // Delay between current and next text

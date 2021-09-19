@@ -428,18 +428,43 @@ input, select, textarea {
 	  .txt-rotate{
 		text-transform: uppercase;
 		color: #fff;
-	font-size: 1.2em;
-	text-shadow:
-		0 0 5px rgb(247, 0, 255),
-		0 0 10px rgb(247, 0, 255),
-		0 0 20px rgb(255, 0, 0),
-		0 0 40px rgb(243, 51, 237),
-		0 0 80px rgba(38,104,127,1),
-		0 0 90px rgba(38,104,127,1),
-		0 0 100px rgba(38,104,127,1),
-		0 0 140px rgba(38,104,127,1),
-		0 0 180px rgba(38,104,127,1);
+		font-size: 1.2em;
+		text-shadow:
+			0 0 5px rgb(247, 0, 255),
+			0 0 10px rgb(247, 0, 255),
+			0 0 20px rgb(255, 0, 0),
+			0 0 40px rgb(243, 51, 237),
+			0 0 80px rgba(38,104,127,1),
+			0 0 90px rgba(38,104,127,1),
+			0 0 100px rgba(38,104,127,1),
+			0 0 140px rgba(38,104,127,1),
+			0 0 180px rgba(38,104,127,1);
 	  }
+
+	@media screen and (max-width: 480px) {
+		.txt-rotate {
+			color: rgb(231, 134, 255);
+			font-size: 1.2em;
+			text-shadow: none;
+		}
+	}
+	@media only screen and (max-width : 639px) {
+		.txt-rotate {
+			color: rgb(231, 134, 255);
+			font-size: 1.2em;
+			/* text-shadow:
+			0 0 5px rgb(247, 0, 255),
+			0 0 10px rgb(247, 0, 255),
+			0 0 20px rgb(255, 0, 0),
+			0 0 40px rgb(243, 51, 237),
+			0 0 80px rgba(38,104,127,1),
+			0 0 90px rgba(38,104,127,1),
+			0 0 100px rgba(38,104,127,1),
+			0 0 140px rgba(38,104,127,1),
+			0 0 180px rgba(38,104,127,1);  */
+		}
+	}
+
 
 /* Animacion BACKGROUND */
 	  

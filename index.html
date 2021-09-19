@@ -6,10 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Solid State by HTML5 UP</title>
+		<link rel="icon" href="https://www.vippng.com/png/full/554-5544025_lightning-art-symbol-clipart-image-and-transparent.png" />
+		<title>Alejandro Jameson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -38,8 +40,9 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a class="scrollTo" href="#AboutMe">About Me</a></li>
+								<li><a class="scrollTo" href="#Skills">Skills</a></li>
+								<li><a class="scrollTo"	href="#Portfolio">Portfolio</a></li>
 							</ul>
 							<a href="#" ></a><button class="close">Close</button></a>
 						</div>
@@ -50,37 +53,108 @@
 						<div class="inner">
 							<div class="logo"></div>
 							<h2><font color="#D227ED"><</font><font color="white"> Alejandro Jameson </font><font color="#D227ED">/</font><font color="#D227ED">></font><font color="#FD02F"> </font><font color="#F61024"> </font></h2>
-							<div class="containerTitle">
-								<p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-								<script src="Developer.js"></script>
-							  </div>
+							<!-- <div class="containerTitle"> -->
+								<span
+          							class="txt-rotate"
+          							data-period="2000"
+          							data-rotate='[ "Full Stack Developer", "Front End Developer", "Developer  🖤"]'>
+								</span>
+								<!-- <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+								<script src="Developer.js"></script> -->
+							<!--   </div> -->
 						</div>
 					</section>
 
 				<!-- Wrapper -->
-					<section id="wrapper">
+				<section id="wrapper">
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<div class="image"></a><img src="images/pic01.jpg" alt="" /></div>
-									<div class="content">
-										<h2 class="major">About Me</h2>
-										<p>Full Stack Developer specialized in JavaScript, ReactJS and NodeJS.
-											I can easily adaptable to any group or environment. 
-											I am constantly learning about new technologies, a lover of solving puzzles and able to solve any problem. 
-											Always ready to give my best and achieve any kind of goal.</p>
-											<a href="https://www.dropbox.com/s/j3jteyjxh6im0pa/CV_Alejandro_Jameson.pdf?dl=0" target="_blank" class="btn"><span>My CV</span></a>
+					<!-- One -->
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner" id="AboutMe">
+								<div class="image"></a><img src="images/pic01.jpg" alt="" /></div>
+								<div class="content">
+									<h2 class="major">About Me</h2>
+									<p>Full Stack Developer specialized in JavaScript, ReactJS and NodeJS.
+										I can easily adaptable to any group or environment. 
+										I am constantly learning about new technologies, a lover of solving puzzles and able to solve any problem. 
+										Always ready to give my best and achieve any kind of goal.</p>
+									<a href="https://www.dropbox.com/s/j3jteyjxh6im0pa/CV_Alejandro_Jameson.pdf?dl=0" target="_blank" class="btn"><span>Mi CV</span></a>
+								</div>
+							</div>
+							<div class="inner">
+								<!-- <div class="image"></div> -->
+								<div class="content" id="Skills">
+									<h2 class="major" align="center">Skills</h2>
+									<div class="LanCont"> 
+										<div class="carousel">
+											<div class="carousel__item">
+												<div class="skillstitcont">
+													<h4 class="skilltit">technologies</h4>
+												</div>
+												<div class="skillscont">
+													<h4 class="liskill">JavaScript</h4>
+													<h4 class="liskill">TypeScript</h4>
+													<h4 class="liskill">C++</h4>
+												</div>
+											</div>
+											<div class="carousel__item">
+												<div class="skillstitcont">
+													<h4 class="skilltit">Front End</h4>
+												</div>
+												<div class="skillscont">
+													<h4 class="liskill">React, hooks</h4>
+													<h4 class="liskill">React Native</h4>
+													<h4 class="liskill">Redux</h4>
+													<h4 class="liskill">VueJS</h4>
+													<h4 class="liskill">Styled Component</h4>
+													<h4 class="liskill">Chakra UI</h4>
+													<h4 class="liskill">Boostrap</h4>
+												</div>
+											</div>
+											<div class="carousel__item">
+												<div class="skillstitcont">
+													<h4 class="skilltit">Back End</h4>
+												</div>
+												<div class="skillscont">
+													<h4 class="liskill">Node</h4>
+													<h4 class="liskill">Express</h4>
+													<h4 class="liskill">Sequelize</h4>
+												</div>
+											</div>
+											<div class="carousel__item">
+												<div class="skillstitcont">
+													<h4 class="skilltit">Data Base</h4>
+												</div>
+												<div class="skillscont">
+													<h4 class="liskill">SQL</h4>
+													<h4 class="liskill">PostgreSQL</h4>
+												</div>
+											</div>
+											<div class="carousel__item">
+												<div class="skillstitcont">
+													<h4 class="skilltit">Tools</h4>
+												</div>
+												<div class="skillscont">
+													<h4 class="liskill">Git</h4>
+													<h4 class="liskill">GitHub</h4>
+													<h4 class="liskill">Docker</h4>
+													<h4 class="liskill">Visual Studio</h4>
+													<h4 class="liskill">Postman</h4>
+													<h4 class="liskill">Dev c++</h4>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-							</section>
+							</div>
+						</section>
 
 
 						<!-- Four -->
 						<section id="four" class="wrapper alt style1" style="background: rgba(0, 0, 0, 0.582);">
-							<div class="inner" id="Portafolio">
-								<h2 class="major">Portafolio</h2>
-								<p>Algunos de los proyectos en los que trabaje</p>
+							<div class="inner" id="Portfolio">
+								<h2 class="major">Portfolio</h2>
+								<p>Some of the projects I have worked on</p>
 								<section class="features">
 
 									<div class="WRAPERSITO">
@@ -213,8 +287,8 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<p>Contact Me!</p>
+							<form method="post" action="mailto:alejameson01@gmail.com">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -235,18 +309,13 @@
 							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
+									Argentina<br />
+									San Juan<br />
 								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li class="icon solid fa-phone">+54 (264) 483 3561</li>
+								<li class="icon solid fa-envelope">alejameson02@gmail.com</li>
+								<li class="icon brands fa-github"><a href="https://github.com/alejameson">github.com/alejameson</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/alejandro-jameson/">linkedin.com/in/alejandro-jameson</a></li>
 							</ul>
 						</div>
 					</section>
@@ -260,6 +329,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				$(".scrollTo").click(function () {
+					var getElement = $(this).attr("href");
+					if($(getElement).length) {
+						var getOffset = $(getElement).offset().top;
+						var targetDistance = 70;
+						$("html,body").animate({
+							scrollTop: getOffset - targetDistance
+						}, 500);
+					}
+				})
+			</script>
+			<script src="Carousel.js"></script>
+			<script src="Text-Rotate.js"></script>
 
 	</body>
 </html>
