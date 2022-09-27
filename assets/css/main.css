@@ -185,7 +185,7 @@ input, select, textarea {
 	body {
 		/* background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
 		background-size: 400% 400%; */
-		background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");  /* FONDO 1:(https://fondosmil.com/fondo/29364.jpg) FONDO 2:https://www.wallpapertip.com/wmimgs/20-200549_minimalist-desktop-wallpaper-hd.jpg FONDO 3: https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg*/
+		background-image: url("https://wallpaperaccess.com/full/2377084.png");  /*FONDO FACHA:(https://wallpaperaccess.com/full/2377084.png) FONDO 1:(https://fondosmil.com/fondo/29364.jpg) FONDO 2:https://www.wallpapertip.com/wmimgs/20-200549_minimalist-desktop-wallpaper-hd.jpg FONDO 3: https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg*/
 		animation: gradient 15s ease infinite;
 		height: 100vh;
 		background-attachment: fixed,
@@ -197,8 +197,8 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 		body {
 			/* background-size: 200% 120%; */ 
-			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
-			animation: gradient 120s ease infinite;
+			background-image: url("https://wallpaperaccess.com/full/2377084.png");
+			animation: none; 
 			height: 100vh;
 			background-attachment: fixed,
  	fixed;
@@ -210,8 +210,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 639px) {
 		body {
-			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
-			animation: gradient 120s ease infinite;
+			background-image: url("https://wallpaperaccess.com/full/2377084.png");
+			animation: none;
 			height: 100vh;
 			background-attachment: fixed,
  	fixed;
@@ -221,10 +221,10 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1500px) {
 		body {
-			background-image: url("https://cutewallpaper.org/21/firewatch-desktop-background/Played-around-with-the-firewatch-art-and-made-this-pretty-.jpg");
-			animation: gradient 120s ease infinite;
+			background-image: url("https://wallpaperaccess.com/full/2377084.png");
+			animation: none;
 			height: 100vh;
 			background-attachment: fixed,
  	fixed;
@@ -434,9 +434,9 @@ input, select, textarea {
 			0 0 10px rgb(247, 0, 255),
 			0 0 20px rgb(255, 0, 0),
 			0 0 40px rgb(243, 51, 237),
-			0 0 80px rgba(38,104,127,1),
-			0 0 90px rgba(38,104,127,1),
-			0 0 100px rgba(38,104,127,1),
+			/* 0 0 80px rgba(38,104,127,1),
+			0 0 90px rgba(38,104,127,1), */
+			/* 0 0 100px rgba(38,104,127,1), */
 			0 0 140px rgba(38,104,127,1),
 			0 0 180px rgba(38,104,127,1);
 	  }
@@ -452,6 +452,7 @@ input, select, textarea {
 		.txt-rotate {
 			color: rgb(231, 134, 255);
 			font-size: 1.2em;
+			text-shadow: none;
 			/* text-shadow:
 			0 0 5px rgb(247, 0, 255),
 			0 0 10px rgb(247, 0, 255),
@@ -464,8 +465,6 @@ input, select, textarea {
 			0 0 180px rgba(38,104,127,1);  */
 		}
 	}
-
-
 /* Animacion BACKGROUND */
 	  
 	  .bg {
@@ -496,6 +495,49 @@ input, select, textarea {
 		100% {
 			transform: translateX(25%);
 		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.bg {
+		animation: slide 3s ease-in-out infinite alternate;
+		background-image: linear-gradient(-60deg, #00000062 50%, #4b028693 30%, #000000);
+		bottom: 0;
+		left: -50%;
+		opacity: 0.65;
+		position: fixed;
+		right: -50%;
+		top: 0;
+		z-index: -1;
+
+		/* animation: none;
+		background-image: none;
+		bottom: none;
+		left: none;
+		opacity: none;
+		position: none;
+		right: none;
+		top: 0;
+		z-index: none; */
+	}
+	
+	.bg2 {
+		animation-direction: none;
+		animation-duration: none;
+	}
+	
+	.bg3 {
+		animation-duration: none;
+	}
+	
+	@keyframes slide {
+		0% {
+			transform: none;
+		}
+		100% {
+			transform: none;
+		}
+	}
+
 	}
 	
 
